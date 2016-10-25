@@ -239,7 +239,10 @@
             }, {
                 "val": "Encode a form's elements as an array of names and values",
                 "key": ".serializeArray()"
-            }],
+            }, {
+		"val": "Load data from the server and place the returned HTML (fregment) into the matched element",
+		"key: "$(selector).load(url, data, complete)"
+	}],
         "Utilities": [{
                 "val": "Parses a string into an array of DOM nodes",
                 "key": "$.parseHTML(htmlString, context, keepScripts )"
